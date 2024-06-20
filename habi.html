@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+        }
+        .side-nav {
+            height: 100vh;
+            background-color: #D07344;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 250px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .side-nav img.profile {
+            border-radius: 50%;
+            width: 120px;
+            margin: 0 auto 20px auto;
+            display: block;
+        }
+        .side-nav .nav-links {
+            width: 100%;
+        }
+        .side-nav a {
+            display: block;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+        }
+        .side-nav a:hover {
+            background-color: #C55A30;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .skills-section {
+            margin-top: 20px;
+        }
+        .skills-section h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+        }
+        .skills-section .subheading {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #666;
+            margin-top: 20px;
+        }
+        .skills-section .icons {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        .skills-section .icons img {
+            margin-right: 10px;
+            margin-bottom: 10px;
+            height: 50px; /* Ajustar el tamaño de los iconos */
+        }
+        .skills-section .workflow {
+            margin-top: 20px;
+        }
+        .skills-section .workflow ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .skills-section .workflow ul li {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .skills-section .workflow ul li:before {
+            content: '\f00c'; /* FontAwesome check icon */
+            font-family: 'FontAwesome';
+            margin-right: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="side-nav">
+        <img src="https://scontent.flim2-1.fna.fbcdn.net/v/t1.18169-9/11165113_985067948246127_5971781957415544445_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFynTA5CIN2J9QQ3WU_qPsLxeKy3dHaK_TF4rLd0dor9PurI4mfMwLTLdXinhh_G4XjBzHaEvgDSAYEzCmEzpzH&_nc_ohc=lzXuMbCn8PEQ7kNvgGNThaX&_nc_ht=scontent.flim2-1.fna&oh=00_AYDsexhSEVgoReZ_Mwn5Sj5MIGjKLpzfmg4luwHY_WvSkQ&oe=669C0148" alt="Foto de Perfil" class="profile">
+        <div class="nav-links">
+            <a href="index.html">ACERCA DE</a>
+            <a href="exp.html">EXPERIENCIA</a>
+            <a href="edu.html">EDUCACIÓN</a>
+            <a href="habi.html">HABILIDADES</a>
+            <a href="inte.html">INTERESES</a>
+            <a href="pre.html">PREMIOS</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="skills-section">
+            <h2>HABILIDADES</h2>
+            <div class="subheading">LENGUAJES Y HERRAMIENTAS DE PROGRAMACIÓN</div>
+            <div class="icons">
+                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5">
+                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3">
+                <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript">
+                <img src="https://img.icons8.com/color/48/000000/angularjs.png" alt="AngularJS">
+                <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React">
+                <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js">
+                <img src="https://img.icons8.com/color/48/000000/sass.png" alt="Sass">
+                <img src="https://th.bing.com/th/id/R.8885ce9860f3aed4c999dc1b9fb70633?rik=ujP9lvfbsVflUw&pid=ImgRaw&r=0" alt="Less">
+                <img src="https://img.icons8.com/ios-filled/50/000000/wordpress.png" alt="WordPress">
+                <img src="https://logos-download.com/wp-content/uploads/2016/09/PHP_logo.png" alt="Gulp">
+                <img src="https://logodownload.org/wp-content/uploads/2019/10/python-logo-2.png" alt="Grunt">
+                <img src="https://img.icons8.com/color/48/000000/npm.png" alt="NPM">
+            </div>
+            <div class="workflow">
+                <div class="subheading">FLUJO DE TRABAJO</div>
+                <ul>
+                    <li>Diseño responsivo centrado en los dispositivos móviles</li>
+                    <li>Pruebas y depuración entre navegadores</li>
+                    <li>Equipos multifuncionales</li>
+                    <li>Desarrollo ágil y Scrum</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>
